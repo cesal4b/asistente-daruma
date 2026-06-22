@@ -1,0 +1,255 @@
+@theme {
+    /* ========================================
+     COLORES - PRIMARIOS Y SECUNDARIOS
+     ======================================== */
+    /* Azul CESA */
+    --color-primary-azul-001: #013998FF;
+    /* Secundarios*/
+    --color-secondary-azul-002: #232BE6FF;
+    --color-secondary-azul-003: #305FFFFF;
+    --color-secondary-azul-005: #027BFFFF;
+
+    --color-text-azul-004: #041F3EFF;
+
+    /* ========================================
+     COLORES - TRANSPARENCIAS
+     ======================================== */
+
+    --color-transparency-10: #FFFFFF1A;
+    --color-transparency-25: #FFFFFF40;
+    --color-transparency-50: #FFFFFF80;
+
+    /* ========================================
+     COLORES - CONTEXTUALES / FEEDBACK
+     ======================================== */
+
+    /* Error */
+    --color-contextual-error-100: #FB3748FF;
+    --color-contextual-error-200: #D00416FF;
+    --color-contextual-error-alpha: #FB37481A;
+
+    /* Warning */
+    --color-contextual-warning-100: #FFDB43FF;
+    --color-contextual-warning-200: #DFB400FF;
+    --color-contextual-warning-alpha: #FFDB431A;
+
+    /* Success */
+    --color-contextual-success-100: #84EBB4FF;
+    --color-contextual-success-200: #1FC16BFF;
+    --color-contextual-success-alpha: #1FC16B1A;
+
+    /* Information */
+    --color-contextual-information-100: #AADEFFFF;
+    --color-contextual-information-200: #019BFFFF;
+    --color-contextual-information-alpha: #E6F5FFFF;
+
+    /* ========================================
+     COLORES - ÁREAS / CATEGORÍAS
+     ======================================== */
+
+    /* Comercial */
+    --color-area-comercial-marketing-002: #5C214DFF;
+
+    /* Marketing */
+    --color-area-comercial-marketing-003: #2E0331FF;
+
+    /* Finanzas*/
+    --color-area-finanzas-sostenibilidad-002: #49903AFF;
+
+    /* Sostenibilidad */
+    --color-area-finanzas-sostenibilidad-003: #074734FF;
+
+    /* Liderazgo | Talento Humano*/
+    --color-area-liderazgo-talento-002: #F8D210FF;
+
+    /* Habilidades empresariales */
+    --color-area-liderazgo-talento-003: #FFCB00FF;
+
+    /* Tecnología para negocios */
+    --color-area-tecnologia-emprendimiento-002: #FF8D00FF;
+
+    /* Color de Primary button | Programas avanzados */
+    --color-area-tecnologia-emprendimiento-003: #FF4C00FF;
+
+    /* Pregrado - Materias (Azul secundario 003)*/
+    --color-secondary-azul-003: #305FFFFF;
+
+    /* Programas Jovenes y Niños (Azul secundario 005)*/
+    --color-secondary-azul-005: #027BFFFF;
+
+    /* IA */
+    --color-tag-ia: linear-gradient(to bottom, #1e42fa 0%, #2958d9 34.13%, #013998 100%);
+
+    /* ========================================
+     COLORES - NEUTRALES
+     ======================================== */
+
+    /* Blanco entero */
+    --color-neutral-000: #FFFFFFFF;
+
+    --color-neutral-001: #F3F5FBFF;
+    /* Lineas */
+    --color-neutral-002: #D5D8DFFF;
+    --color-neutral-003: #B4B9C5FF;
+
+    /*Usos varios como estados en disabled*/
+    --color-neutral-004: #929BACFF;
+    --color-neutral-005: #828B9FFF;
+    --color-neutral-006: #657188FF;
+
+    /* Negro entero */
+    --color-neutral-100: #000000FF;
+
+    /* ========================================
+             ESPACIADO (SPACING)
+             ======================================== */
+    --Sizes-Spacing-spacing-1: 2px;
+    --Sizes-Spacing-spacing-2: 4px;
+    --Sizes-Spacing-spacing-3: 8px;
+    --Sizes-Spacing-spacing-4: 12px;
+    --Sizes-Spacing-spacing-5: 16px;
+    --Sizes-Spacing-spacing-6: 24px;
+    --Sizes-Spacing-spacing-7: 32px;
+    --Sizes-Spacing-spacing-8: 48px;
+    --Sizes-Spacing-spacing-9: 64px;
+    --Sizes-Spacing-spacing-10: 80px;
+    --Sizes-Spacing-spacing-11: 128px;
+
+    /* ========================================
+             BORDER RADIUS
+             ======================================== */
+    --Sizes-Radius-radius-0: 0px;
+    /* 2px */
+    --Sizes-Radius-radius-1: var(--Sizes-Spacing-spacing-1);
+    /* 4px */
+    --Sizes-Radius-radius-2: var(--Sizes-Spacing-spacing-2);
+    /* 128px */
+    --Sizes-Radius-radius-11: var(--Sizes-Spacing-spacing-11);
+
+    /* ========================================
+             STROKE / BORDER WIDTH
+             ======================================== */
+    --Stroke-0: 1px;
+    --Stroke-1: 2px;
+    --Stroke-2: 4px;
+    --Stroke-3: 6px;
+
+    /* ========================================
+             TIPOGRAFÍA - FUENTE
+             ======================================== */
+    --font-family-outfit: "Outfit", sans-serif;
+
+    /* ========================================
+             TIPOGRAFÍA - BODY
+             ======================================== */
+    /* === Body Large (24px) === */
+
+    --body-large-light-family: "Outfit", sans-serif;
+    --body-large-light-size: 24px;
+    --body-large-light-weight: 300;
+    --body-large-light-line-height: 28.8px;
+    /* 120% */
+
+    --body-large-medium-family: "Outfit", sans-serif;
+    --body-large-medium-size: 24px;
+    --body-large-medium-weight: 500;
+    --body-large-medium-line-height: 28.8px;
+
+    --body-large-semibold-family: "Outfit", sans-serif;
+    --body-large-semibold-size: 24px;
+    --body-large-semibold-weight: 600;
+    --body-large-semibold-line-height: 28.8px;
+
+
+    /* === Body Medium (16px) === */
+
+    --body-medium-light-family: "Outfit", sans-serif;
+    --body-medium-light-size: 16px;
+    --body-medium-light-weight: 300;
+    --body-medium-light-line-height: 20.8px;
+    /* 130% */
+
+    --body-medium-medium-family: "Outfit", sans-serif;
+    --body-medium-medium-size: 16px;
+    --body-medium-medium-weight: 500;
+    --body-medium-medium-line-height: 20.8px;
+
+    --body-medium-semibold-family: "Outfit", sans-serif;
+    --body-medium-semibold-size: 16px;
+    --body-medium-semibold-weight: 600;
+    --body-medium-semibold-line-height: 20.8px;
+
+    /* === Body Small (14px) === */
+    
+    --body-small-light-family: "Outfit", sans-serif;
+    --body-small-light-size: 14px;
+    --body-small-light-weight: 300;
+    --body-small-light-line-height: 18.2px;
+    /* 130% */
+
+    --body-small-medium-family: "Outfit", sans-serif;
+    --body-small-medium-size: 14px;
+    --body-small-medium-weight: 500;
+    --body-small-medium-line-height: 18.2px;
+
+    --body-small-semibold-family: "Outfit", sans-serif;
+    --body-small-semibold-size: 14px;
+    --body-small-semibold-weight: 600;
+    --body-small-semibold-line-height: 18.2px;
+
+    /* ========================================
+     TIPOGRAFÍA - HEADINGS
+     ======================================== */
+    /* === Headings Bold === */
+
+    --heading-h1-bold-family: "Outfit", sans-serif;
+    --heading-h1-bold-size: 64px;
+    --heading-h1-bold-weight: 700;
+    --heading-h1-bold-line-height: 64px;
+    /* 100% */
+    --heading-h1-bold-letter-spacing: -2px;
+
+    --heading-h2-bold-family: "Outfit", sans-serif;
+    --heading-h2-bold-size: 48px;
+    --heading-h2-bold-weight: 700;
+    --heading-h2-bold-line-height: 48px;
+    --heading-h2-bold-letter-spacing: -1px;
+
+    --heading-h3-bold-family: "Outfit", sans-serif;
+    --heading-h3-bold-size: 32px;
+    --heading-h3-bold-weight: 700;
+    --heading-h3-bold-line-height: 35.2px;
+    /* 110% */
+    --heading-h3-bold-letter-spacing: -0.5px;
+
+    --heading-h4-bold-family: "Outfit", sans-serif;
+    --heading-h4-bold-size: 24px;
+    --heading-h4-bold-weight: 600;
+    --heading-h4-bold-line-height: 28.8px;
+    /* 120% */
+
+    /* === Headings Light === */
+
+    --heading-h1-light-family: "Outfit", sans-serif;
+    --heading-h1-light-size: 64px;
+    --heading-h1-light-weight: 300;
+    --heading-h1-light-line-height: 64px;
+    --heading-h1-light-letter-spacing: -2px;
+
+    --heading-h2-light-family: "Outfit", sans-serif;
+    --heading-h2-light-size: 48px;
+    --heading-h2-light-weight: 300;
+    --heading-h2-light-line-height: 48px;
+    --heading-h2-light-letter-spacing: -1px;
+
+    --heading-h3-light-family: "Outfit", sans-serif;
+    --heading-h3-light-size: 32px;
+    --heading-h3-light-weight: 300;
+    --heading-h3-light-line-height: 35.2px;
+    --heading-h3-light-letter-spacing: -0.5px;
+
+    --heading-h4-light-family: "Outfit", sans-serif;
+    --heading-h4-light-size: 24px;
+    --heading-h4-light-weight: 300;
+    --heading-h4-light-line-height: 28.8px;
+}

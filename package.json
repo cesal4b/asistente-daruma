@@ -1,0 +1,7 @@
+{
+  "name": "asistente-daruma",
+  "version": "1.0.0",
+  "description": "Asistente interno para el sistema QMS Daruma",
+  "private": true,
+  "type": "module"
+}

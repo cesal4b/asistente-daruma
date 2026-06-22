@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portal — Asistente Daruma</title>
+  <style>
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;line-height:1.5;color:#133;background:#f6f9f8;padding:28px}
+    .card{background:#fff;border:1px solid #e6ece8;border-radius:12px;padding:18px;max-width:980px;margin:18px auto}
+    h1{font-size:20px;margin-bottom:6px}
+    p.lead{color:#476; margin-bottom:12px}
+    ul{margin:12px 0 0 18px}
+    a{color:#0f6e56;text-decoration:none}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    .aside{background:#fbfffc;border:1px solid #e6efe9;padding:12px;border-radius:10px}
+    .btn{display:inline-block;background:#1d9e75;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none}
+    .small{font-size:13px;color:#556b64}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Portal — Asistente Daruma</h1>
+    <p class="lead">Centro de recursos y acceso rápido para el asistente interno del QMS Daruma. Aquí puedes encontrar la guía, transcripciones y recursos para crear el KB y el prototipo.</p>
+
+    <div class="grid">
+      <div>
+        <h3>Acceso al asistente (chat)</h3>
+        <p class="small">Abre la interfaz conversacional para interactuar con el asistente.</p>
+        <p><a class="btn" href="index.html">Abrir Asistente (index.html)</a></p>
+
+        <h3>Archivos HTML relacionados</h3>
+        <ul>
+          <li><a href="archivos html/entrenamiento-daruma.html">Entrenamiento Daruma</a></li>
+          <li><a href="archivos html/arquitectura-macroprocesos.html">Arquitectura y macroprocesos</a></li>
+          <li><a href="archivos html/diagrama-interactivo.html">Diagrama interactivo</a></li>
+        </ul>
+
+        <h3>Transcripciones (PDF)</h3>
+        <p class="small">Grabaciones transcritas con el contenido de cada módulo.</p>
+        <ul>
+          <li><a href="transcripciones/Oportunidades.pdf">Oportunidades</a></li>
+          <li><a href="transcripciones/Planes de acción.pdf">Planes de Acción</a></li>
+          <li><a href="transcripciones/Modulo Documentos.pdf">Gestión Documental</a></li>
+          <li><a href="transcripciones/Auditoria.pdf">Auditoría</a></li>
+          <li><a href="transcripciones/Archivo de audio.pdf">Audio (adjunto)</a></li>
+        </ul>
+
+        <h3>¿Qué sigue? (sugerido)</h3>
+        <ul>
+          <li>Revisar las transcripciones y extraer pasos por módulo.</li>
+          <li>Crear preguntas frecuentes basadas en dudas reales de usuarios.</li>
+          <li>Probar el asistente con 5 usuarios y recoger feedback.</li>
+        </ul>
+      </div>
+
+      <aside class="aside">
+        <h4>Notas rápidas</h4>
+        <p class="small">Seguridad: por ahora el prototipo usa una clave de acceso local y la llamada al modelo se realiza desde el servidor (`api/chat.js`). Para producción, considera integrar SSO y hospedar la base de vectores en una instancia privada.</p>
+        <h4>Recursos técnicos</h4>
+        <ul>
+          <li class="small">Archivo de código del API: <a href="api/chat.js">api/chat.js</a></li>
+          <li class="small">Configuración de despliegue: <a href="vercel.json">vercel.json</a></li>
+          <li class="small">Instrucciones largas: <a href="README.md">README.md</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <p class="small" style="margin-top:18px">Si quieres, puedo generar una versión imprimible (PDF), crear un índice por módulos más detallado, o transformar las transcripciones en preguntas frecuentes listas para el KB. Dime qué prefieres y lo hago.</p>
+  </div>
+</body>
+</html>
